@@ -1,11 +1,8 @@
 import React from 'react';
 import '../App.css'
 import logo from "../logo.svg"
-
-import { Link, withRouter } from 'react-router-dom';
-import { logDOM } from '@testing-library/react';
+import { Link } from 'react-router-dom';
 function Nav() {
-
   const navStyle = {
     color: "white"
   }
@@ -18,7 +15,7 @@ function Nav() {
           </Link>
 
           <Link style={navStyle} to='/about'>
-            <li>about</li>
+            <li>About</li>
           </Link>
 
           <Link style={navStyle} to='/contact'>

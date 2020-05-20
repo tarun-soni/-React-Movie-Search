@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="App">
+    <div >
         <h1>
             about
         </h1>
