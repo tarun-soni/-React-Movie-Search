@@ -55,7 +55,6 @@ export default function SearchMovies() {
                 <button className="search-button" type="submit">Search</button>
             </form>
 
-            {/* <h3>shows  results : {fetchedData.results.length}</h3> */}
             <h2>No of pages: {fetchedData.page}  of {fetchedData.total_pages}</h2>
             
             <h2>No of Totalresults: {fetchedData.total_results}</h2>

@@ -58,27 +58,49 @@ html {
 
 .card-list {
     margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    padding: 2rem 3rem;
+    flex: 1 0 21%; 
+    margin: 5px;
+    padding: 3rem 5rem;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
     margin-bottom: 2rem;
-    background-color: white;
-
+    background-color:white;
+   
 }
 
 .card--title {
-    font-size: 3rem;
-}
+    font-size: 2.2rem;
+    margin-left: 0;
+    margin-top: 20px;
 
+    margin-bottom: 15px;
+}
+.release{
+color: rgba(78, 78, 78, 0.767);
+}
+.rating{
+    text-decoration: bold;
+
+}
 .card--img {
     border-radius: 10px;
+
+    font-size: 16px;
 }
 .card--content {
     margin: 10px;
 }
 .card--desc{
-    font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word; 
+    font-size: 14px;
+}
+.read-more-content{
+    font-size: 14px;
+    color: blue;
 }
