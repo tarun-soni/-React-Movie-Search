@@ -1,11 +1,13 @@
 import React from 'react';
+import SearchBook from '../components/SearchBook';
 
 function About() {
   return (
     <div >
         <h1>
-            about
+            Search Book
         </h1>
+<SearchBook/>
     </div>
   );
 }
