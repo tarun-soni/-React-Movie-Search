@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size:10px;
 }
 
 * {
@@ -11,15 +11,14 @@ html {
 }
 
 .label {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 
 .input-movie{
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding: 0.3rem 1.2rem;
     line-height: 1.6rem;
     border-radius: 20px;
@@ -34,7 +33,7 @@ html {
     padding: 0.7rem 0.7rem;
     border: 0.8px solid rgba(0,0,0,0.75);
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 2em;
     cursor: pointer;
     transition: background-color 250ms;
 }
@@ -53,4 +52,33 @@ html {
     .input {
         margin-bottom: 0;
     }
+}
+
+
+
+.card-list {
+    margin-top: 4rem;
+}
+
+.card {
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+    margin-bottom: 2rem;
+    background-color: white;
+
+}
+
+.card--title {
+    font-size: 3rem;
+}
+
+.card--img {
+    border-radius: 10px;
+}
+.card--content {
+    margin: 10px;
+}
+.card--desc{
+    font-size: 18px;
 }
