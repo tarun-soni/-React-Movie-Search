@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.css'
+import './Common.css'
 import SearchMovies from '../components/SearchMovies';
-function Home() {
+function MovieTab() {
   return (
     <div className="container">
       <h1 className="title">React Movie Search</h1>
@@ -10,4 +10,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default MovieTab;

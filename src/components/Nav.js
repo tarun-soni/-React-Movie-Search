@@ -14,13 +14,13 @@ function Nav() {
             <div><img src={logo} /></div>
           </Link>
 
-          <Link style={navStyle} to='/about'>
-            <li>About</li>
+          <Link style={navStyle} to='/contact'>
+            <li>Search for Movies</li>
+          </Link>
+          <Link style={navStyle} to='/books'>
+            <li>Search for Books</li>
           </Link>
 
-          <Link style={navStyle} to='/contact'>
-            <li>Contact</li>
-          </Link>
         </ul>
       </nav>
     </div>

@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import './SearchMovies.css'
 import MovieCard from "./Moviecard";
 require('dotenv').config()
-async function nextPage(){
+async function nextPage() {
     console.log("in next");
 }
-async function previousPage(){
+async function previousPage() {
     console.log("in prev");
 }
 
@@ -18,8 +18,6 @@ export default function SearchMovies() {
 
     // @2.results array 
     const [movies, setMovies] = useState([])
-
-
 
     //onSubmit function of form
     const searchMovies = async (e) => {
@@ -42,12 +40,12 @@ export default function SearchMovies() {
 
         previousPage()
     }
+    
 
     return (
-
         <div>
             <form className="search-form" onSubmit={searchMovies}>
-                <label className="label" htmlFor="query">Movie Name</label>
+                <label className="label" htmlFor="query">Enter Movie Name</label>
                 <input className="input-movie" type="text" name="query"
                     placeholder="maybe Jurassic Park"
                     value={query}
@@ -56,8 +54,8 @@ export default function SearchMovies() {
             </form>
 
             <h2>No of pages: {fetchedData.page}  of {fetchedData.total_pages}</h2>
-            
-            <h2>No of Totalresults: {fetchedData.total_results}</h2>
+
+            <h2>Total No. of Resuts: {fetchedData.total_results}</h2>
 
             <div className="card-list">
                 {
