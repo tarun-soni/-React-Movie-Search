@@ -55,7 +55,7 @@ function SearchBook() {
 
             <div className="card-list">
                 {
-                    books.map(book => (
+                    books.filter(book => book.volumeInfo.imageLinks).map(book => (
                          <BookCard book={book} key={book.id} />
                     )
                     )
