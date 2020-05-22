@@ -10,15 +10,13 @@ function Nav() {
     <div className="App">
       <nav >
         <ul className="nav-links">
-          <Link to='/'>
-            <div><img src={logo} /></div>
-          </Link>
+         
 
           <Link style={navStyle} to='/contact'>
-            <li>Search for Movies</li>
+            <li>Search Movies</li>
           </Link>
           <Link style={navStyle} to='/books'>
-            <li>Search for Books</li>
+            <li>Search Books</li>
           </Link>
 
         </ul>
