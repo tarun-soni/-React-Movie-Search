@@ -52,6 +52,25 @@ html {
     .input {
         margin-bottom: 0;
     }
+    .card-list {
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        /* flex: 1 0 21%;  */
+        margin: 5px;
+        padding: 3rem 5rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+        margin-bottom: 2rem;
+        background-color:white;
+    }
+
+    .card-list > .card:nth-last-child(1) {
+        display: flex;
+        background-color: #fff;
+      }
 }
 
 
@@ -70,7 +89,6 @@ html {
     box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
     margin-bottom: 2rem;
     background-color:white;
-   
 }
 
 .card--title {
@@ -80,6 +98,10 @@ html {
 
     margin-bottom: 15px;
 }
+.card-list > .card:hover {
+    background-color: #4e4e4e3f;
+}
+
 .release{
 color: rgba(78, 78, 78, 0.767);
 }
