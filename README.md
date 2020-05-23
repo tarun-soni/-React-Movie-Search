@@ -1,4 +1,4 @@
-## A Movie Search React App
+## A Movie and Book Search React App
 made with react Hooks
 
 movie DB api from [The Movie DB](https://www.themoviedb.org/)
