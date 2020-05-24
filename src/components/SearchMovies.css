@@ -56,6 +56,7 @@ html {
         margin-top: 4rem;
         display: flex;
         flex-wrap: wrap;
+
     }
     .card {
         /* flex: 1 0 21%;  */
@@ -67,22 +68,22 @@ html {
         background-color:white;
     }
 
-    .card-list > .card:nth-last-child(1) {
-        display: flex;
-        background-color: #fff;
-      }
 }
 
 
 
 .card-list {
     margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+display: grid;
+
+    /* grid-template-columns: repeat(auto-fit, 30rem); */
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    grid-auto-rows: auto; 
 }
 
 .card {
-    flex: 1 0 21%; 
     margin: 5px;
     padding: 3rem 5rem;
     border-radius: 10px;
@@ -111,8 +112,8 @@ color: rgba(78, 78, 78, 0.767);
 }
 .card--img {
     border-radius: 10px;
-
     font-size: 16px;
+    /* margin-left: 10%; */
 }
 .card--content {
     margin: 10px;
