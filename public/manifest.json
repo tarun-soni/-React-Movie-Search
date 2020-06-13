@@ -4,12 +4,12 @@
     "icons": [
         {
             "src": "./icon.png",
-            "type": "image/png",
+            "type": "image/svg",
             "sizes": "1024x1024"
         }
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#2a451f"
+    "theme_color": "#2a451f",
+    "background_color": "#000"
 }
