@@ -9,7 +9,7 @@ function Nav() {
     <div className="App">
       <nav>
         <ul className="nav-links">
-          <Link style={navStyle} to="/contact">
+          <Link style={navStyle} to="/movies">
             <li>Search Movies</li>
           </Link>
           <Link style={navStyle} to="/books">

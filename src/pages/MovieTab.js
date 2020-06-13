@@ -4,7 +4,7 @@ import SearchMovies from '../components/SearchMovies';
 function MovieTab() {
   return (
     <div className="container">
-      <h1 className="title">React Movie Search</h1>
+      <h1 className="title"> Search Movies</h1>
       <SearchMovies/>
     </div>
   );

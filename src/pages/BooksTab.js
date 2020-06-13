@@ -6,7 +6,7 @@ function BooksTab() {
 
 
     <div className="container">
-      <h1 className="title">React Books Search</h1>
+      <h1 className="title">Search Books</h1>
       <SearchBook />
     </div>
   );
