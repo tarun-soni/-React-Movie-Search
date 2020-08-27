@@ -10,7 +10,7 @@ https://tarun-moviebook-search.netlify.app
 #### On PC : open the link and click on the + icon on the address bar
 
 
-movie DB api from [The Mo   vie DB](https://www.themoviedb.org/)
+movie DB api from [The Movie DB](https://www.themoviedb.org/)
 
 ---
 ### Screenshots
